@@ -1,0 +1,51 @@
+.item:hover {
+  cursor: pointer;
+  background: #eeeeee;
+}
+
+.logo {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.header {
+  height: 50vh;
+  display: grid;
+  place-items: center center;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.is-yellow-btn {
+  background: #f6d500 !important;
+  color: #3e3c31 !important;
+}
+
+.pager .button {
+  background: #78909C !important;
+}
+
+.pager .is-secondary {
+  color: #78909C !important;
+  background: transparent !important;
+  border: 2px solid #78909C !important;
+  margin: 2px !important;
+}
+
+.is-font-weight-light {
+    font-weight: 300 !important;
+}
+
+.results .is-badge {
+  font-size: 16px !important;
+  height: 30px !important;
+  padding: 6px !important;
+}
+
+.results,
+.title {
+  text-transform: uppercase;
+}
+
