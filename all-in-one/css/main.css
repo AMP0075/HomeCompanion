@@ -1,0 +1,226 @@
+body{
+background-color:#f2f2f2;
+font-family:lato;
+font-weight:300;
+font-size:16px;
+color:#555;
+padding-top:50px;
+-webkit-font-smoothing:antialiased;
+-webkit-overflow-scrolling:touch
+}
+html{
+scroll-behavior:smooth
+}
+h1,h2,h3,h4,h5,h6{
+font-family:raleway;
+font-weight:300;
+color:#333
+}
+p{
+line-height:28px;
+margin-bottom:25px
+}
+.centered{
+text-align:center
+}
+a{
+color:#3bc492;
+word-wrap:break-word;
+-webkit-transition:color .1s ease-in,background .1s ease-in;
+-moz-transition:color .1s ease-in,background .1s ease-in;
+-ms-transition:color .1s ease-in,background .1s ease-in;
+-o-transition:color .1s ease-in,background .1s ease-in;
+transition:color .1s ease-in,background .1s ease-in
+}
+a:hover,a:focus{
+color:#c0392b;
+text-decoration:none;
+outline:0
+}
+a:before,a:after{
+-webkit-transition:color .1s ease-in,background .1s ease-in;
+-moz-transition:color .1s ease-in,background .1s ease-in;
+-ms-transition:color .1s ease-in,background .1s ease-in;
+-o-transition:color .1s ease-in,background .1s ease-in;
+transition:color .1s ease-in,background .1s ease-in
+}
+hr{
+display:block;
+height:1px;
+border:0;
+border-top:1px solid #ccc;
+margin:1em 0;
+padding:0
+}
+#headerwrap{
+background-color:#4ec2c2;
+padding-top:60px;
+padding-bottom:30px
+}
+#headerwrap h1{
+margin-top:30px;
+color:#fff;
+font-size:70px
+}
+#headerwrap h3{
+color:#fff;
+font-size:30px
+}
+#headerwrap h5{
+color:#fff;
+font-weight:700;
+text-align:left
+}
+#headerwrap p{
+text-align:left;
+color:#fff
+}
+#intro{
+padding-top:50px;
+border-top:#bdc3c7 solid 5px
+}
+#features{
+padding-top:50px;
+padding-bottom:50px
+}
+#features .ac a{
+font-size:20px
+}
+#showcase{
+display:block;
+background-color:#34495e;
+padding-top:50px;
+padding-bottom:50px
+}
+#showcase h1{color:#fff}
+#footerwrap{
+background-color:#2f2f2f;
+color:#fff;
+padding-top:40px;
+padding-bottom:60px;
+text-align:left
+}
+#footerwrap h3{
+font-size:28px;
+color:#fff
+}
+#footerwrap p{
+color:#fff;
+font-size:18px
+}
+#c{
+background:#222;
+padding-top:15px;
+text-align:center
+}
+#c p{
+color:#fff
+}
+.navbar-default{
+background-color:#4ec2c2;
+border-color:transparent
+}
+.navbar-default .navbar-brand{
+color:#fde03e
+}
+.navbar-default .navbar-nav>li>a{
+color:#fff
+}
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{
+color:#fde03e;
+background-color:transparent
+}
+.btn-custom,.btn-custom a,.btn-custom:hover,.btn-custom:active,.btn-custom.hover{
+background-color:#fde03e;
+font-weight:bolder!important;
+color:#000!important;
+padding:15px 45px
+}
+.footer-download{
+background-color:#4ec2c2;
+padding-bottom:60px;
+padding-top:60px;
+text-align:center
+}
+.el-offers{
+padding-bottom:30px;
+padding-top:30px
+}
+.media .media-left{
+min-width:64px!important
+}
+.media img{
+max-width:32px
+}
+.media{
+padding-top:20px
+}
+.sb-preview .card .sb-preview-img{
+transition:all .2s ease-in-out 0s
+}
+.sb-preview .card{
+-moz-border-bottom-colors:none;
+-moz-border-left-colors:none;
+-moz-border-right-colors:none;
+-moz-border-top-colors:none;
+background:#fff none repeat scroll 0 0;
+border-color:#ededed;
+border-image:none;
+border-style:solid;
+border-width:1px 1px 3px
+}
+.h-100{min-height:246px}
+.sb-preview{margin-bottom:30px}
+.card-img-top{
+border-top-left-radius:calc(0.25rem - 1px);
+border-top-right-radius:calc(0.25rem - 1px)
+}
+.img-fluid{
+height:auto;
+max-width:100%
+}
+.store-list img{
+vertical-align:middle;
+border-style:none;
+height:100%;
+min-width:80%;
+margin-left:auto; 
+margin-right:auto;
+display:block
+}
+.sb-preview .card .card-block{
+padding:1.5rem 1.5rem 0
+}
+.card-block{
+flex:1 1 auto;
+padding:1.25rem
+}
+.card-title{
+margin-bottom:.75rem
+}
+.card-text:last-child{
+margin-bottom:0
+}
+.sb-preview .card .card-footer{
+background:transparent none repeat scroll 0 0;
+border:0;
+padding:.75rem 1.5rem 1.5rem
+}
+.card-footer:last-child{
+border-radius:0 0 calc(0.25rem - 1px) calc(0.25rem - 1px)
+}
+.store-logo{
+vertical-align:middle;
+text-align:center;
+height:130px
+}
+#selectCountry,#selectCategory{
+margin:5px;
+border:1px solid #ccc;
+width:170px;
+border-radius:3px;
+padding:10px
+}
+.view-stores{
+margin-left:50px
+}
