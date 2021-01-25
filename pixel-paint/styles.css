@@ -1,0 +1,97 @@
+h1 {
+  font-size: 30px;
+}
+
+/*body {
+  background-color: blue;
+}*/
+
+#entireContainer {
+  height: 200px;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+}
+
+#colorsAndFunctionality {
+  float: left;
+  height: 200px;
+  width: 15%;
+}
+
+#backgroundName {
+  height: 10px;
+  width: 10px;
+}
+
+#paletContainer {
+  box-sizing: border-box;
+  justify-content: space-around;
+  list-style: none;
+  margin: 10px 10px 10px 10px;
+  padding: 0;
+}
+
+#functionalityBar {
+  margin: 10px 10px 10px 10px;
+}
+
+#backgroundName {
+  text-align: center;
+}
+.palet {
+  border-style: solid;
+  height: 10px;
+  margin-top: 2px;
+  padding: 2px;
+  width: 10px;
+}
+
+#canvasContainer {
+  height: 200px;
+  margin-left: 15%;
+}
+
+.rows {
+  margin: 0px 0px 0px 0px;
+  padding: 0em;
+  width: 100%;
+}
+
+.canvas {
+  border-style: solid;
+  display: inline-block;
+  height: 5px;
+  margin: 0px 0px 0px 0px;
+  padding: 1em;
+  width: 5px;
+}
+
+#red {
+  background-color: red;
+}
+
+#white {
+  background-color: white;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#black {
+  background-color: black;
+}
+
+#gray {
+  background-color: gray;
+}
+
+#hi {
+  background-color: white;
+}
+

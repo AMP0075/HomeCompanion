@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="js/app.js"></script>
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/sliderStyle.css">
+  <link rel="stylesheet" href="styles.css"></link>
+  <title>Testing</title>
+</head>
+<body>
+<header style="background-color: #b5651d ; padding: 8.5px;">
+		<h3><a href="/HomeCompanion/homecompanion.com/all/home" style="background-color: gold; padding:5px; border-radius: 5px;">HomeCompanion</a> <span>Pixel-Paint</span></h3>
+	</header><br>
+<div id="entireContainer">
+  <div id="colorsAndFunctionality">
+    <div id="paletContainer">
+      <div class="palet" id="red" onclick="getBackgroundColor(this.id)"></div>
+      <div class="palet" id="white" onclick="getBackgroundColor(this.id)"></div>
+      <div class="palet" id="purple" onclick="getBackgroundColor(this.id)"></div>
+      <div class="palet" id="yellow" onclick="getBackgroundColor(this.id)"></div>
+      <div class="palet" id="black" onclick="getBackgroundColor(this.id)"></div>
+      <div class="palet" id="gray" onclick="getBackgroundColor(this.id)"></div>
+    </div>
+    <div id="functionalityBar">
+      <div id="backgroundColorNameContainer">
+        The background color is:
+        <div id="backgroundName"></div>
+      </div>
+      <button onclick="erase()">Erase</button>
+      <button onclick="fillCanvas()">Fill</button>
+      <button onclick="clearCanvas()">Clear</button>
+    </div>
+  </div>
+  <div id="canvasContainer">
+    <div class="rows">
+      <div class="canvas" id="canvas1" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas2" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas3" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas4" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas5" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas6" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas7" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas8" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas9" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas10" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+    </div>
+    <div class="rows">
+      <div class="canvas" id="canvas11" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas12" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas13" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas14" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas15" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas16" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas17" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas18" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas19" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas20" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+    </div>
+    <div class="rows">
+      <div class="canvas" id="canvas21" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas22" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas23" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas24" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas25" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas26" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas27" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas28" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas29" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas30" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+    </div>
+    <div class="rows">
+      <div class="canvas" id="canvas31" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas32" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas33" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas34" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas35" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas36" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas37" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas38" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas39" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas40" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+    </div>
+    <div class="rows">
+      <div class="canvas" id="canvas41" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas42" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas43" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas44" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas45" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas46" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas47" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas48" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas49" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas50" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+    </div>
+    <div class="rows">
+      <div class="canvas" id="canvas51" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas52" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas53" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas54" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas55" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas56" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas57" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas58" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas59" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas60" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+    </div>
+    <div class="rows">
+      <div class="canvas" id="canvas61" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas62" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas63" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas64" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas65" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas66" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas67" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas68" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas69" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas70" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+    </div>
+    <div class="rows">
+      <div class="canvas" id="canvas71" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas72" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas73" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas74" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas75" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas76" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas77" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas78" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas79" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas80" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+    </div>
+    <div class="rows">
+      <div class="canvas" id="canvas81" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas82" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas83" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas84" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas85" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas86" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas87" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas88" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas89" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas90" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+    </div>
+    <div class="rows">
+      <div class="canvas" id="canvas91" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas92" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas93" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas94" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas95" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas96" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas97" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas98" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas99" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas100" onmousemove="changeColor(this.id)" onclick="changeColorOnClick(this.id)"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
