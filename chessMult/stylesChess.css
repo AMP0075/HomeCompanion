@@ -1,0 +1,178 @@
+#FenInDiv {
+	position: relative;
+	left: 60px;
+}
+
+#fenIn { 
+ width: 480px;
+ left: 60px;
+}
+
+#versionLink {
+	margin-left:10px;
+	font-size:small;
+}
+
+#LoadingBook {
+	position: absolute;
+	left: 600px;
+	top: 150px;	
+	
+}
+
+#CurrentFenDiv {
+	position: relative;
+	left: 60px;
+	margin-top: 40px;
+}
+
+#Board {
+	position: relative;
+	left: 60px;
+	top: 20px;
+	width: 480px; /*480*/
+	height: 480px;
+	border-style:solid;
+    border-width:2px;
+}
+
+#SaveLoadOutput {
+	position: absolute;
+	left: 600px;
+	top: 120px;	
+}
+
+#NewGameButton{
+	position: absolute;
+	left: 600px;
+	top: 300px;	
+}
+
+#GameStatus {
+	position: absolute;
+	left: 600px;
+	top: 270px;	
+	
+}
+#GameStatus {
+animation-duration:1000ms;
+animation-name:tgle;
+animation-iteration-count:infinite;
+}
+@keyframes tgle {
+	0%{
+		opacity: 0;
+	}
+	49.99%{
+	 opacity: 0;
+	}
+	50%{
+	 opacity: 1;
+	 color:pink;
+	}
+	99.99%{
+	 opacity: 1;
+	 color:blue;
+	}
+	100%{
+	 opacity: 0;
+	}
+}
+
+
+#form_container {
+	position: absolute;
+	left: 750px;
+	top: 250px;	
+}
+#log{
+	position: absolute;
+	top: 120px;
+	left: 750px;
+}
+#EngineOutput {
+	position: absolute;
+	left: 600px;
+	top: 250px;	
+}
+
+#ThinkingImageDiv {
+	position: absolute;
+	top: 220px;
+	left: 600px;
+}
+
+
+
+#ThinkingPng {
+	width: 50px;
+	height: 30px;
+}
+
+
+
+.Piece {
+	position: absolute;
+}
+
+.Square {
+	position: absolute;	
+	width: 60px;
+	height: 60px;
+}
+
+.Light {
+	background-color:#5fbcd3;
+}
+
+.Dark {
+	background-color:#afdde9;
+}
+
+.SqSelected {
+	background-color:#216778;
+}
+
+.clickElement { cursor:pointer }
+
+.row1 { top: 420px; }
+.row2 { top: 360px; }
+.row3 { top: 300px; }
+.row4 { top: 240px; }
+.row5 { top: 180px; }
+.row6 { top: 120px; }
+.row7 { top: 60px; }
+.row8 { top: 0px; }
+
+.col1 { left: 0px; }
+.col2 { left: 60px; }
+.col3 { left: 120px; }
+.col4 { left: 180px; }
+.col5 { left: 240px; }
+.col6 { left: 300px; }
+.col7 { left: 360px; }
+.col8 { left: 420px; }
+
+.row8flip { top: 420px; }
+.row7flip { top: 360px; }
+.row6flip { top: 300px; }
+.row5flip { top: 240px; }
+.row4flip { top: 180px; }
+.row3flip { top: 120px; }
+.row2flip { top: 60px; }
+.row1flip { top: 0px; }
+
+.col8flip { left: 0px; }
+.col7flip { left: 60px; }
+.col6flip { left: 120px; }
+.col5flip { left: 180px; }
+.col4flip { left: 240px; }
+.col3flip { left: 300px; }
+.col2flip { left: 360px; }
+.col1flip { left: 420px; }
+
+
+
+
+
+
