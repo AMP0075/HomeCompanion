@@ -1,0 +1,47 @@
+/* This file will contain all of the css for the see_topics.php file */
+
+/* CSS for the header */
+.see_topic_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/talking.jpg');
+  height: 600px;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header div {
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 25px;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+/* CSS for the main area */
+main {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+}
+
+.topic_selection_form {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_fix {
+  width: 20% !important;
+}
+
+.card_action_fix {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-around;
+}

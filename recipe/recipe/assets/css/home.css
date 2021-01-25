@@ -1,0 +1,63 @@
+/* The CSS in this file will cover the CSS for the home page */
+
+.section_one {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/mountain.jpg');
+  height: 600px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_one_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3em;
+}
+
+.section_one_div div {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.section_two {
+  height: 375px;
+}
+
+.topic_selection_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  width: 20% !important;
+}
+
+.form_fix {
+  width: 20% !important;
+}
+
+/* Media Queries */
+@media only all and (max-width: 768px) {
+
+  .section_one_div {
+    grid-template-columns: 1fr;
+  }
+
+  select {
+    width: 50% !important;
+  }
+
+  .form_fix {
+    width: 50% !important;
+  }
+
+}
