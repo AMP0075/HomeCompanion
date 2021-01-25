@@ -1,0 +1,47 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Natural Images | HomeCompanion</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/sliderStyle.css"> 
+</head>
+
+<body translate="no">
+
+  <header style="background-color: skyblue ; padding: 8.5px;">
+		<h3><a href="../home" style="background-color: gold; padding:5px; border-radius: 5px;">HomeCompanion</a><a href="#"> Natural Images</a></h3>
+        
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+            <select class="selectpicker" data-show-content="true" id="selectCategory" name="category" onchange="javascript:location.href = this.value">
+            <option value="" data-content="">Categories</option>
+            <option data-content="" value="#grid">Natural Images</option>
+            <option data-content="" value="#grid2">Snow</option>
+            <option data-content="" value="#grid3">Hills</option>
+            <option data-content="" value="#grid4">River</option>
+            <option data-content="" value="#grid5">Ocean</option>
+            <option data-content="" value="#grid6">Trees</option>
+            <option data-content="" value="#grid7">Garden</option>
+            </select>
+            </ul>
+        </div>
+    </header>     
+    
+  <div class="grid"></div><br>
+  <div class="grid2" id="grid2"></div><br>
+  <div class="grid3" id="grid3"></div><br>
+  <div class="grid4" id="grid4"></div><br>
+  <div class="grid5" id="grid5"></div><br>
+  <div class="grid6" id="grid6"></div><br>
+  <div class="grid7" id="grid7"></div><br>
+  <br>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script id="rendered-js" src="script.js"></script>
+  <footer>
+	<div style="background-color:lavender; clear: both; position: relative;text-align:center; padding:45px; width: 100%; height: 0.5rem;">
+		HomeCompanion &copy; 2020.
+    </div>
+  </footer>
+</body>
+</html>
