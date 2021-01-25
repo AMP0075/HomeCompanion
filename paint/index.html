@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Paint | HomeCompanion</title>	
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/sliderStyle.css">
+</head>
+<body style="background-color: skyblue;">
+	<header style="background-color: #b5651d ; padding: 8.5px;">
+		<h3><a href="/HomeCompanion/homecompanion.com/all/home" style="background-color: gold; padding:5px; border-radius: 5px;">HomeCompanion</a> <span>Paint</span></h3>
+	</header><br>
+	<div id="paint-container">
+		<div id="toolbar">
+			<div id="toolbar-pen-color" class="toolbar-inner toolbar-pen-color">
+				<div class="toolbar-pen-color-value-text">Color </div>
+				<div id="toolbar-pen-color-value" class="toolbar-option-value"></div>
+				<div id="toolbar-pen-color-list">
+					<ul>
+						<li class="toolbar-pen-color-list-item" id="color-selected">Black
+							<div class="toolbar-color-picker-show bg-black"></div>
+						</li>
+						<li class="toolbar-pen-color-list-item">Red
+							<div class="toolbar-color-picker-show bg-red"></div>
+						</li>
+						<li class="toolbar-pen-color-list-item">Green
+							<div class="toolbar-color-picker-show bg-green"></div>
+						</li>
+						<li class="toolbar-pen-color-list-item">Blue
+							<div class="toolbar-color-picker-show bg-blue"></div>
+						</li>
+						<li class="toolbar-pen-color-list-item">Yellow
+							<div class="toolbar-color-picker-show bg-yellow"></div>
+						</li>
+						<li class="toolbar-pen-color-list-item">Orange
+							<div class="toolbar-color-picker-show bg-orange"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="toolbar-pen-size" class="toolbar-inner toolbar-pen-size">
+				<div class="toolbar-pen-size-value-text">Size 
+					<span id="toolbar-pen-size-value">(1px)</span>
+				</div>
+				<!-- <div id="toolbar-pen-size-value" class="toolbar-option-value"></div> -->
+				<div id="toolbar-pen-size-list">
+					<ul>
+						<li id="size-selected" class="toolbar-pen-size-list-item">1px<div class="toolbar-size-picker-show px-size-1"></div>
+						</li>
+						<li class="toolbar-pen-size-list-item">2px<div class="toolbar-size-picker-show px-size-2"></div>
+						</li>
+						<li class="toolbar-pen-size-list-item">3px<div class="toolbar-size-picker-show px-size-3"></div>
+						</li>
+						<li class="toolbar-pen-size-list-item">4px<div class="toolbar-size-picker-show px-size-4"></div>
+						</li>
+						<li class="toolbar-pen-size-list-item">5px<div class="toolbar-size-picker-show px-size-5"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			 <div class="toolbar-undo-redo" style="display: none">
+				<button id="toolbar-undo" class="disabled">undo</button>
+				<button id="toolbar-redo" class="disabled">redo</button>
+			</div>
+		</div>
+		<div id="the-canvas-cont">
+			<canvas width="748" height="450" id="the-canvas">
+			</canvas>
+			<div id="buttons">
+				<button id="download-image" onClick="download()">↓ Download ↓</span>
+				<button id="preview-image">Preview Image</button>
+				<button id="clear-canvas">Clear Canvas</button>
+			</div>
+		</div>
+		<div id="the-image-cont">
+			<span id="close-img-preview">&times; Close &times;</span>
+			<img src="" alt="your created image" id="your-image">
+		</div>
+		<div id="hidden-img">
+			<img src="" id="undo-redo-img">
+		</div>
+	</div>
+	<script src="js/paint.js"></script>
+	<script src="js/toolbar.js"></script>
+</body>
+</html>
