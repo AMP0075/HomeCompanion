@@ -1,30 +1,30 @@
 $(document).ready(function () {
   var k=Math.floor(Math.random() * 10);
-  console.log(k);
-  var url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=5f28f194a04e42d28fb05c61a18c1370";
+  console.log(k); //USE YOUR OWN API KEY
+  var url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=XXXXf194a04e42d28fb05c61a1XXXXXX";
   switch(k) {
-  case 0: url="http://newsapi.org/v2/top-headlines?country=in&apiKey=5f28f194a04e42d28fb05c61a18c1370";
+  case 0: url="http://newsapi.org/v2/top-headlines?country=in&apiKey=XXXXf194a04e42d28fb05c61a1XXXXXX";
 		  break;
-  case 1: url="https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=5f28f194a04e42d28fb05c61a18c1370";
+  case 1: url="https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=XXXXf194a04e42d28fb05c61a1XXXXXX";
 		  break;
-  case 2: url="https://newsapi.org/v2/everything?q=bitcoin&apiKey=5f28f194a04e42d28fb05c61a18c1370";
+  case 2: url="https://newsapi.org/v2/everything?q=bitcoin&apiKey=XXXXf194a04e42d28fb05c61a1XXXXXX";
 		  break;  
-  case 3: url="https://newsapi.org/v2/everything?q=apple&from=2020-10-18&to=2020-10-18&sortBy=popularity&apiKey=5f28f194a04e42d28fb05c61a18c1370";
+  case 3: url="https://newsapi.org/v2/everything?q=apple&from=2020-10-18&to=2020-10-18&sortBy=popularity&apiKey=XXXXf194a04e42d28fb05c61a1XXXXXX";
 		  break;  
-  case 4: url="http://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=5f28f194a04e42d28fb05c61a18c1370";
+  case 4: url="http://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=XXXXf194a04e42d28fb05c61a1XXXXXX";
 		  break;  
-  case 5: url="http://newsapi.org/v2/everything?domains=wsj.com&apiKey=5f28f194a04e42d28fb05c61a18c1370";
+  case 5: url="http://newsapi.org/v2/everything?domains=wsj.com&apiKey=XXXXf194a04e42d28fb05c61a1XXXXXX";
 		  break;
-  case 6: url="http://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=5f28f194a04e42d28fb05c61a18c1370";
+  case 6: url="http://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=XXXXf194a04e42d28fb05c61a1XXXXXX";
 		  break;  
-  case 7: url="http://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=5f28f194a04e42d28fb05c61a18c1370";
+  case 7: url="http://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=XXXXf194a04e42d28fb05c61a1XXXXXX";
 		  break;  
-  case 8: url="http://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=5f28f194a04e42d28fb05c61a18c1370";
+  case 8: url="http://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=XXXXf194a04e42d28fb05c61a1XXXXXX";
 		  break;  
-  case 9: url="http://newsapi.org/v2/top-headlines?country=au&category=technology&apiKey=5f28f194a04e42d28fb05c61a18c1370";
+  case 9: url="http://newsapi.org/v2/top-headlines?country=au&category=technology&apiKey=XXXXf194a04e42d28fb05c61a1XXXXXX";
 		  break;
   default:
-    url="https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=5f28f194a04e42d28fb05c61a18c1370";
+    url="https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=XXXXf194a04e42d28fb05c61a1XXXXXX";
 }
 
   $.ajax({
